@@ -28,8 +28,6 @@ body{
     font-family: var(--man-font);
     background-color: var(--bg-color1);
     color: var(--primary-color1);
-    /*background: linear-gradient(90deg,#eee  96%, transparent 1%) center, linear-gradient(#eee 96%, transparent 1%) center, black;
-    background-size: 20px 20px;*/
 }
 
 section{
@@ -49,13 +47,6 @@ nav{
     flex-direction: row;
     z-index: 1;
 }
-
-/*flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-    */
 
 
 #hme{
@@ -113,64 +104,6 @@ nav{
 }
 
 
-/*.marquee{
-    width: 90vw;
-    height: 20vh;
-    background-color: #eee;
-    color: rgb(100, 100, 100);
-    overflow: hidden;
-    margin: 55px auto;
-    position: relative;
-    background: linear-gradient(90deg,#eee  96%, transparent 1%) center, linear-gradient(#eee 96%, transparent 1%) center, black;
-    background-size: 20px 20px;
-}
-
-.marquee:before, .marquee:after{
-    position: absolute;
-    top: 0;
-    width: 10rem;
-    height: 100%;
-    content: "";
-    z-index: 1;
-}
-
-.marquee:before{
-    left: 0;
-    background: linear-gradient(to right, #eee 0%, transparent 100%);
-}
-
-.marquee:after{
-    right: 0;
-    background: linear-gradient(to left, #eee 0%, transparent 100%);
-}
-
-.marquee-content{
-    list-style: none;
-    height: 100%;
-    display: flex;
-    animation: scrolling 10s linear infinite;
-}
-
-@keyframes scrolling {
-    0% {transform: translateX(0);}
-    100% {transform: translateX(-180vw);}
-}
-
-/*.marquee-content li{
-    width: 20vw;
-    display: flex;
-    flex-shrink: 0;
-    justify-content: center;
-    align-items: center;
-    font-size: 5rem;
-    border: solid 1px transparent;
-    white-space: nowrap;
-}
-
-.marquee-content li:hover{
-    color: orangered;
-}
-*/
 
 #projects-section{
     border: solid px;
