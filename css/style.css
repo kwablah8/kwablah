@@ -58,26 +58,3 @@ body{
     padding: 10px;
     border: solid px;
 }
-
-
-
-
-#about-section{
-    border: solid px;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-}
-
-#about{
-    border: solid px;
-    height: 75%;
-    width: 75%;
-}
-
-    
-
