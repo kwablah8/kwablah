@@ -30,7 +30,6 @@ body{
     color: var(--primary-color1);
 }
 
-
 #container{
     height: relative;
 }
@@ -39,7 +38,7 @@ body{
 #main-page{
     border: solid 1px;
     height: 70%;
-    width: 55%;
+    width: 70%;
     padding: 20px;
 }
 
