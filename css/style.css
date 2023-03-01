@@ -38,9 +38,8 @@ body{
 
 #main-page{
     border: solid 1px;
+    height: 70%;
     width: 55%;
-    position: 100vh;
-    margin: 170px 65px 0;
     padding: 20px;
 }
 
