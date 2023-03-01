@@ -1,11 +1,11 @@
 :root{
     --main-font: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    --primary-color1: #151515;
+    --primary-color1: rgb(0, 0, 0);
     --bg-color1: rgb(255, 255, 255);
 }
 
 *{
-    border: solid px;
+    border: solid 1px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -31,21 +31,7 @@ body{
 }
 
 section{
-    border: solid 1px transparen;
-    height: 100vh;
-}
-
-
-nav{
-    background-color: rgba(215, 215, 215, 85%);
-    position: fixed;
-    top: 0;
-    height: 60px;
-    width: 100%;
-    border-bottom: solid 1px;
-    display: flex;
-    flex-direction: row;
-    z-index: 1;
+    height: relative;
 }
 
 
@@ -53,47 +39,21 @@ nav{
     margin: 0;
 }
 
-#nav-links{
-    position: relative;
+
+#main-page{
     border: solid 1px;
-    height: 100%;
-    width: 33.3vw;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-}
-
-.nav-item{
-    border: solid 1px;
-    padding: 5px;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-size: 1.6rem;
-    font-weight: 0;
-    margin: 0;
-}
-
-.nav-item:hover{
-    color: rgb(100, 100, 100);
-}
-
-#short-about{
-    border: solid px;
     width: 55%;
     position: relative;
     margin: 170px 65px 0;
     padding: 20px;
 }
 
-#short-about-name{
+#header-name{
     font-size: 4rem;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     margin: 10px;
     padding: 10px;
-    border: solid px;
+    border: solid 1px;
 }
 
 #short-about-text{
