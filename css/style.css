@@ -70,7 +70,12 @@ body{
 }
 
 #skills-header{
-    
+    font-size: 2rem;
+    margin: 10px;
+}
+
+#skls{
+    color: rgb(255, 69, 0);
 }
 
 
