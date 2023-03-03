@@ -17,13 +17,6 @@ a{
     text-decoration: none;
 }
 
-ul{
-    list-style-type: circle var(--color1);
-    list-style-position: inside;
-    margin: 0;
-    padding: 0;
-}
-
 
 html{
     font-size: 10px;
@@ -96,13 +89,17 @@ body{
     font-size: 1.5rem;
     width: 100%;
     margin: 5px;
+    padding: 0.5%;
     border: solid 1px;
     height: 100%;
 }
 
 
 .skls-lst{
-    display: inline;
+    display: inline-block;
+    border: solid 1px;
+    padding: 0.2%;
+
 }
 
 
