@@ -18,8 +18,12 @@ a{
 }
 
 ul{
-    list-style: none;
+    list-style-type: circle var(--color1);
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
 }
+
 
 html{
     font-size: 10px;
@@ -74,6 +78,7 @@ body{
     border: solid 1px;
     padding: 1%;
     height: 100%;
+    margin: 10px;
 }
 
 #skills-header{
@@ -85,6 +90,19 @@ body{
 
 #skls{
     color: var(--color4);
+}
+
+#skills-content{
+    font-size: 1.5rem;
+    width: 100%;
+    margin: 5px;
+    border: solid 1px;
+    height: 100%;
+}
+
+
+.skls-lst{
+    display: inline;
 }
 
 
