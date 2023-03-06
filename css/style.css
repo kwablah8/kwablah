@@ -54,13 +54,13 @@ nav{
 }
 
 #nav-links{
-    border: solid 1px;
+    border: soli 1px;
     display: flex;
     flex-direction: row;
 }
 
 .nav-item{
-    border: solid 1px;
+    border: soli 1px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,14 +76,14 @@ nav{
 #container{
     height: relative;
     width: 90%;
-    border: solid 1px;
+    border: soli 1px;
     padding: 7%;
     margin: 2% auto;
 }
 
 
 #main-section{
-    border: solid 1px;
+    border: soli 1px;
     padding: 2%;
     height: 100%;
 }
@@ -93,7 +93,7 @@ nav{
     width: 16rem;
     margin: 10px;
     padding: 1%;
-    border: solid 1px;
+    border: soli 1px;
     background-color: var(--color1);
 }
 
@@ -107,12 +107,12 @@ nav{
     margin: 10px;
     margin-top: 5%;
     padding: 0;
-    border: solid 1px;
+    border: soli 1px;
     color: var(--color3);
 }
 
 #skills-section{
-    border: solid 1px;
+    border: soli 1px;
     padding: 1%;
     height: 100%;
     margin: 10px;
@@ -122,7 +122,7 @@ nav{
     font-size: 2rem;
     width: 16rem;
     margin: 5px;
-    border: solid 1px;
+    border: soli 1px;
 }
 
 #skls{
@@ -134,14 +134,14 @@ nav{
     width: 100%;
     margin: 5px;
     padding: 0.5%;
-    border: solid 1px;
+    border: soli 1px;
     height: 100%;
 }
 
 
 .skls-lst{
     display: inline-block;
-    border: solid 1px;
+    border: soli 1px;
     padding: 0.5%;
     border-radius: 5px;
     background-color: var(--color5);
@@ -149,7 +149,7 @@ nav{
 
 
 #projects-section{
-    border: solid 1px;
+    border: soli 1px;
     padding: 2%;
     height: 100%;
     margin-top: 7%;
@@ -160,6 +160,6 @@ nav{
     width: 16rem;
     margin: 10px;
     padding: 1%;
-    border: solid 1px;
+    border: soli 1px;
     background-color: var(--color1);
 }
