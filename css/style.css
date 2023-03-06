@@ -175,5 +175,15 @@ nav{
     width: 16rem;
     margin: 10px;
     padding: 1%;
-    border: soli 1px;
+    border: solid 1px;
+}
+
+#abt{
+    color: var(--color1);
+}
+
+#v-line{
+    height: 80%;
+    width: 50%;
+    border-right: solid 1px;
 }
