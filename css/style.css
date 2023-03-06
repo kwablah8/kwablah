@@ -76,7 +76,7 @@ nav{
 #container{
     height: relative;
     width: 90%;
-    border: soli 1px;
+    border: solid 1px;
     padding: 7%;
     margin: 2% auto;
 }
@@ -167,7 +167,7 @@ nav{
     border: solid 1px;
     padding: 2%;
     height: 100%;
-    margin-top: 7%;
+    margin-top: 2%;
 }
 
 #about-header{
