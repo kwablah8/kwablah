@@ -120,14 +120,12 @@ nav{
 
 #skills-header{
     font-size: 2rem;
+    color: var(--color4);
     width: 16rem;
     margin: 5px;
     border: soli 1px;
 }
 
-#skls{
-    color: var(--color4);
-}
 
 #skills-content{
     font-size: 1.5rem;
