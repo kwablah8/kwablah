@@ -51,6 +51,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 1;
 }
 
 #nav-links{
@@ -169,12 +170,15 @@ nav{
     align-items: center;
     justify-content: center;
     grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+    column-gap: 10px;
+    row-gap: 10px;
 }
 
 .grd-img{
     height: 300px;
     width: 300px;
     object-fit: cover;
+    object-position: center;
     border: solid 1px;
 }
 
