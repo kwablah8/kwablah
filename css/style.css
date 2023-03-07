@@ -178,11 +178,8 @@ nav{
 
 #project-content{
     display: grid;
-    column-gap: 10px;
-}
-
-.prjcts{
-
+    align-items: center;
+    justify-content: center;
 }
 
 .grd-img{
