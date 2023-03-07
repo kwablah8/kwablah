@@ -41,7 +41,6 @@ body{
 }
 
 
-
 nav{
     position: fixed;
     width: 100%;
@@ -161,6 +160,12 @@ nav{
     padding: 1%;
     border: solid 1px;
     background-color: var(--color1);
+}
+
+#project-content{
+    border: solid 1px;
+    margin: 10px;
+    height: 100%;
 }
 
 
