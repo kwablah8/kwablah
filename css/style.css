@@ -176,6 +176,20 @@ nav{
     margin-top: 2%;
 }
 
+#project-content{
+    display: grid;
+    column-gap: 10px;
+}
+
+.prjcts{
+
+}
+
+.grd-img{
+    height: 50%;
+    border: solid 1px;
+}
+
 #about-header{
     font-size: 3rem;
     width: 16rem;
@@ -186,10 +200,4 @@ nav{
 
 #abt{
     color: var(--color1);
-}
-
-#v-line{
-    height: 80%;
-    width: 50%;
-    border-right: solid 1px;
 }
