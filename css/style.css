@@ -162,21 +162,9 @@ nav{
     background-color: var(--color1);
 }
 
-#project-content{
-    border: solid 1px;
-    margin: 10px;
-    height: 100%;
-}
-
-
-#about-section{
-    border: soli 1px;
-    padding: 2%;
-    height: 100%;
-    margin-top: 2%;
-}
 
 #project-content{
+    position: relative;
     display: grid;
     align-items: center;
     justify-content: center;
@@ -184,8 +172,19 @@ nav{
 }
 
 .grd-img{
-    height: 50%;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
     border: solid 1px;
+}
+
+
+
+#about-section{
+    border: soli 1px;
+    padding: 2%;
+    height: 100%;
+    margin-top: 2%;
 }
 
 #about-header{
