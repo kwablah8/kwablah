@@ -77,7 +77,7 @@ nav{
 #container{
     height: relative;
     width: 90%;
-    border: solid 1px;
+    border: soli 1px;
     padding: 7%;
     margin: 2% auto;
 }
@@ -148,7 +148,7 @@ nav{
 
 
 #projects-section{
-    border: solid 1px;
+    border: soli 1px;
     padding: 2%;
     height: 100%;
     margin-top: 7%;
@@ -159,7 +159,7 @@ nav{
     width: 16rem;
     margin: 10px;
     padding: 1%;
-    border: solid 1px;
+    border: soli 1px;
     background-color: var(--color1);
 }
 
@@ -170,15 +170,15 @@ nav{
     display: grid;
     align-items: center;
     justify-content: center;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 200px));
     column-gap: 10px;
     row-gap: 10px;
-    border: solid 1px;
+    border: soli 1px;
 }
 
 .grd-img{
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     object-fit: cover;
     object-position: center;
     border: solid 1px;
