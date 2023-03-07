@@ -166,12 +166,14 @@ nav{
 
 #project-content{
     position: relative;
+    margin-top: 5%;
     display: grid;
     align-items: center;
     justify-content: center;
     grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
     column-gap: 10px;
     row-gap: 10px;
+    border: solid 1px;
 }
 
 .grd-img{
