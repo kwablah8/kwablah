@@ -93,7 +93,7 @@ nav{
 
 #main-header{
     font-size: 3.5rem;
-    margin: 10px;
+    margin: 1%;
     padding: 1%;
     border: solid 1px;
 }
@@ -106,7 +106,7 @@ nav{
 #short-about-text{
     font-family: var(--main-font);
     font-size: 2.2rem;
-    margin: 10px;
+    margin: 1%;
     margin-top: 20px;
     padding: 1%;
     border: solid 1px;
@@ -160,7 +160,7 @@ nav{
 #projects-header{
     font-size: 3rem;
     width: 16rem;
-    margin: 10px;
+    margin: 1%;
     padding: 1%;
     border: solid 1px;
 }
@@ -215,10 +215,6 @@ nav{
 /* RESPONSIVE */
 
 @media only screen and (max-width: 600px){
-    *{
-        box-sizing: border-box;
-    }
-
     html{
         font-size: 6px;
     }
