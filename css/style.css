@@ -88,6 +88,7 @@ nav{
     border: soli 1px;
     padding: 20px;
     height: 100%;
+    margin-top: 5px;
 }
 
 #main-header{
@@ -103,8 +104,8 @@ nav{
 
 
 #short-about-text{
-    font-family: Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 2rem;
+    font-family: var(--main-font);
+    font-size: 2.1rem;
     margin: 10px;
     margin-top: 30px;
     padding: 1%;
@@ -121,7 +122,7 @@ nav{
 }
 
 #skills-header{
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: var(--color4);
     width: 16rem;
     margin: 5px;
