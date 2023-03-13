@@ -78,14 +78,14 @@ nav{
 #container{
     height: relative;
     width: 90%;
-    border: solid 1px;
+    border: soli 1px;
     padding: 7%;
-    margin: 10px auto;
+    margin: 20px auto;
 }
 
 
 #main-section{
-    border: solid 1px;
+    border: soli 1px;
     padding: 2%;
     height: 100%;
     margin-top: 5px;
@@ -95,7 +95,7 @@ nav{
     font-size: 3.5rem;
     margin: 1%;
     padding: 1%;
-    border: solid 1px;
+    border: soli 1px;
 }
 
 .nme{
@@ -109,12 +109,12 @@ nav{
     margin: 1%;
     margin-top: 20px;
     padding: 1%;
-    border: solid 1px;
+    border: soli 1px;
     color: var(--color3);
 }
 
 #skills-section{
-    border: solid 1px;
+    border: soli 1px;
     padding: 1%;
     height: 100%;
     margin: 1%;
@@ -126,7 +126,7 @@ nav{
     color: var(--color4);
     width: 16rem;
     margin: 5px;
-    border: solid 1px;
+    border: soli 1px;
 }
 
 
@@ -135,7 +135,7 @@ nav{
     width: 100%;
     margin: 5px;
     padding: 0.5%;
-    border: solid 1px;
+    border: soli 1px;
     height: 100%;
 }
 
@@ -151,7 +151,7 @@ nav{
 
 
 #projects-section{
-    border: solid 1px;
+    border: soli 1px;
     padding: 2%;
     height: 100%;
     margin-top: 7%;
@@ -162,7 +162,7 @@ nav{
     width: 16rem;
     margin: 1%;
     padding: 1%;
-    border: solid 1px;
+    border: soli 1px;
 }
 
 
@@ -217,5 +217,10 @@ nav{
 @media only screen and (max-width: 600px){
     html{
         font-size: 6px;
+    }
+
+    nav{
+        height: 50px;
+        font-size: 1.6rem;
     }
 }
