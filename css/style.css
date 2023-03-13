@@ -78,15 +78,15 @@ nav{
 #container{
     height: relative;
     width: 90%;
-    border: soli 1px;
+    border: solid 1px;
     padding: 7%;
     margin: 10px auto;
 }
 
 
 #main-section{
-    border: soli 1px;
-    padding: 20px;
+    border: solid 1px;
+    padding: 2%;
     height: 100%;
     margin-top: 5px;
 }
@@ -94,8 +94,8 @@ nav{
 #main-header{
     font-size: 3.5rem;
     margin: 10px;
-    padding: 10px;
-    border: soli 1px;
+    padding: 1%;
+    border: solid 1px;
 }
 
 .nme{
@@ -109,15 +109,15 @@ nav{
     margin: 10px;
     margin-top: 20px;
     padding: 1%;
-    border: soli 1px;
+    border: solid 1px;
     color: var(--color3);
 }
 
 #skills-section{
-    border: soli 1px;
+    border: solid 1px;
     padding: 1%;
     height: 100%;
-    margin: 10px;
+    margin: 1%;
     margin-top: 30px;
 }
 
@@ -126,7 +126,7 @@ nav{
     color: var(--color4);
     width: 16rem;
     margin: 5px;
-    border: soli 1px;
+    border: solid 1px;
 }
 
 
@@ -135,7 +135,7 @@ nav{
     width: 100%;
     margin: 5px;
     padding: 0.5%;
-    border: soli 1px;
+    border: solid 1px;
     height: 100%;
 }
 
@@ -151,7 +151,7 @@ nav{
 
 
 #projects-section{
-    border: soli 1px;
+    border: solid 1px;
     padding: 2%;
     height: 100%;
     margin-top: 7%;
@@ -162,7 +162,7 @@ nav{
     width: 16rem;
     margin: 10px;
     padding: 1%;
-    border: soli 1px;
+    border: solid 1px;
 }
 
 
