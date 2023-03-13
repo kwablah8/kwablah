@@ -175,16 +175,16 @@ nav{
     grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
     column-gap: 10px;
     row-gap: 10px;
-    border: soli 1px;
+    border: solid 1px;
 }
 
-.grd-img{
+.grd-conco{
     height: 300px;
     width: 300px;
     object-fit: cover;
     object-position: center;
     border: solid 1px;
-    border-radius: 15px;
+    border-radius: 7px;
 }
 
 
@@ -221,10 +221,26 @@ nav{
 
     nav{
         height: 50px;
-        font-size: 1.6rem;
+        font-size: 2rem;
     }
 
     #container{
-        margin: 35px auto;
+        margin: 60px auto;
+    }
+
+    .skls-lst{
+        padding: 2%;
+        font-size: 1.8rem;
+    }
+
+
+    #project-content{
+        grid-template-columns: repeat(auto-fill, minmax(100px, 100px));
+    }
+
+    .grd-conco{
+        height: 100px;
+        width: 100px;
+        border-radius: 3px;
     }
 }
