@@ -1,6 +1,7 @@
 :root{
     --main-font: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     --navbar: rgba(255, 255, 255, 95%);
+    --hover-blur: rgba(155, 255, 255, 95%);
     --color1: rgb(0, 0, 0);
     --color2: rgb(255, 255, 255);
     --color3: rgb(100, 100, 100);
@@ -121,6 +122,12 @@ nav{
     display: flex;
     color: var(--color1);
     border: solid 1px;
+}
+
+.project-tile:hover{
+    opacity: 0.7;
+    width: 93%;
+    margin: 10px auto;
 }
 
 .project-img{
