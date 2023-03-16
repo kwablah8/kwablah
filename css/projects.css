@@ -90,7 +90,6 @@ nav{
 #projects-header{
     font-size: 3rem;
     width: 16rem;
-    margin: 0;
     padding: 1%;
     border: solid 1px;
 }
@@ -116,18 +115,18 @@ nav{
     border: solid 1px;
 }
 
+.project-tile:hover{
+    opacity: 0.7;
+    width: 93%;
+    margin: 10px auto;
+}
+
 .project-link{
     height: 100%;
     width: 100%;
     display: flex;
     color: var(--color1);
     border: solid 1px;
-}
-
-.project-tile:hover{
-    opacity: 0.7;
-    width: 93%;
-    margin: 10px auto;
 }
 
 .project-img{
