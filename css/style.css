@@ -234,6 +234,10 @@ nav{
         margin: 50px auto;
     }
 
+    #skills-section{
+        margin-top: 20px;
+    }
+
     .skls-lst{
         padding: 2%;
         font-size: 1.8rem;
