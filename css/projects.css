@@ -76,14 +76,14 @@ nav{
     height: relative;
     width: 90%;
     border: solid 1px;
-    padding: 7%;
+    padding: 5%;
     margin: 65px auto;
 }
 
 #projects-section{
     padding: 2%;
     height: 100%;
-    margin-top: 1%;
+    border: solid 1px;
 }
 
 #projects-header{
@@ -104,24 +104,18 @@ nav{
 #project-content{
     position: relative;
     margin-top: 5%;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
-    column-gap: 20px;
-    row-gap: 20px;
+    padding: 1%;
     border: solid 1px;
 }
 
-.grd-conco{
-    height: 300px;
-    width: 300px;
-    object-fit: cover;
-    object-position: center;
+.project-tile{
+    margin: 10px auto;
+    height: 100%;
+    width: 90%;
     border: solid 1px;
 }
 
 .grd-img{
-    height: 250px;
-    width: 300px;
+    height: 100%;
+    width: 30%;
 }
