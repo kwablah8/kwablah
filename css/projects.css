@@ -115,7 +115,15 @@ nav{
     border: solid 1px;
 }
 
-.grd-img{
+.project-link{
     height: 100%;
-    width: 30%;
+    width: 100%;
+    display: flex;
+    color: var(--color1);
+    border: solid 1px;
+}
+
+.project-img{
+    height: 100%;
+    width: 40%;
 }
