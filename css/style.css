@@ -150,10 +150,9 @@ nav{
 
 
 #projects-section{
-    border: soli 1px;
-    padding: 2%;
+    border: solid 1px;
     height: 100%;
-    margin-top: 60px;
+    margin-top: 100px;
 }
 
 #projects-header{
@@ -168,24 +167,19 @@ nav{
 #project-content{
     position: relative;
     margin-top: 5%;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
-    column-gap: 10px;
-    row-gap: 10px;
-    border: soli 1px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: solid 1px;
 }
+
 
 .grd-conco{
-    height: 300px;
-    width: 300px;
-    object-fit: cover;
-    object-position: center;
+    height: 50vh;
+    width: 350px;
     border: solid 1px;
-    border-radius: 7px;
 }
-
 
 
 #about-section{
@@ -245,12 +239,19 @@ nav{
 
 
     #project-content{
-        grid-template-columns: repeat(auto-fill, minmax(100px, 100px));
+    position: relative;
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    border: solid 1px;
     }
 
     .grd-conco{
-        height: 100px;
-        width: 100px;
-        border-radius: 3px;
+        height: 200px;
+        width: 250px;
+        margin-top: 5px;
     }
 }
