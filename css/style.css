@@ -78,9 +78,8 @@ nav{
 
 #main-section{
     border: solid 1px;
-    padding: 10%;
+    padding: 9% 12%;
     height: 100%;
-    margin-top: 5px;
 }
 
 #main-header{
@@ -147,7 +146,6 @@ nav{
     border: solid 1px;
     height: 100%;
     width: 100%;
-    margin-top: ;
     display: flex;
     flex-direction: column;
     align-items: center;
