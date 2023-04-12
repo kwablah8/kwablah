@@ -7,7 +7,7 @@
     --color4: rgb(255, 69, 0);
     --color5: rgba(230, 230, 230);
     --color6: rgb(100, 100, 100);
-    --color7: rgb(230, 230, 230);
+    --color7: rgb(240, 240, 240);
 }
 
 *{
@@ -77,7 +77,7 @@ nav{
 
 
 #main-section{
-    border: solid 1px;
+    border: soli 1px;
     padding: 9% 12%;
     height: 100%;
 }
@@ -143,7 +143,7 @@ nav{
 
 
 #projects-section{
-    border: solid 1px;
+    border: soli 1px;
     height: 100%;
     width: 100%;
     display: flex;
@@ -164,13 +164,12 @@ nav{
 
 #project-content{
     position: relative;
-    margin-top: ;
     width: 90%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    border: solid 1px;
+    border: soli 1px;
 }
 
 
@@ -234,7 +233,7 @@ nav{
     }
 
     #main-section{
-        border: solid 1px;
+        border: soli 1px;
         padding: 14% 12%;
     }
 
