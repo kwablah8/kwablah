@@ -171,14 +171,20 @@ nav{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     border: solid 1px;
 }
 
 
 .grd-conco{
-    height: 50vh;
-    width: 350px;
+    height: 300px;
+    width: 400px;
     border: solid 1px;
+}
+
+#all-projects{
+    float: right;
+    font-size: 1.2rem;
 }
 
 
@@ -246,7 +252,7 @@ nav{
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    border: solid 1px;
+    border: soli 1px;
     }
 
     .grd-conco{
@@ -255,3 +261,4 @@ nav{
         margin-top: 5px;
     }
 }
+
