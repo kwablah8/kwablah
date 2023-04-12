@@ -78,8 +78,8 @@ nav{
 
 #main-section{
     border: solid 1px;
-    padding: 7%;
-    min-height: 100vh;
+    padding: 10%;
+    max-height: 100vh;
     margin-top: 5px;
 }
 
