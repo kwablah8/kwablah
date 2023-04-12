@@ -79,7 +79,7 @@ nav{
 #main-section{
     border: solid 1px;
     padding: 10%;
-    max-height: 100vh;
+    height: 100%;
     margin-top: 5px;
 }
 
