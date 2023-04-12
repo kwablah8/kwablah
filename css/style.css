@@ -146,6 +146,7 @@ nav{
     border: soli 1px;
     height: 100%;
     width: 100%;
+    padding-bottom: 4%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -175,8 +176,13 @@ nav{
 
 .grd-conco{
     height: 300px;
-    width: 400px;
+    width: 450px;
     border: solid 1px;
+}
+
+.project-link{
+    list-style: none;
+    color:rgb(0, 0, 0)
 }
 
 #all-projects{
@@ -190,26 +196,30 @@ nav{
     border: soli 1px;
     padding: 2%;
     height: 100%;
-    margin-top: 2%;
+    background-color: var(--color1);
 }
 
 #about-header{
     font-size: 3rem;
-    width: 16rem;
-    margin: 10px;
+    width: 100%;
     padding: 1%;
-    border: soli 1px;
+    border: solid 1px white;
+    color: var(--color2);
 }
 
-#abt{
-    color: var(--color1);
+#about-content{
+    width: 100%;
+    border: solid 1px white;
+    margin-top: 10px;
+    height: 100%;
 }
-
 
 #footer{
     margin: 0 auto;
     text-align: center;
     padding: 20px;
+    color: var(--color2);
+    background-color: var(--color1);
 }
 
 
