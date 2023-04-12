@@ -181,7 +181,9 @@ nav{
 }
 
 #all-projects{
-    font-size: 1.2rem;
+    align-self: flex-end;
+    font-size: 1.5rem;
+    padding: 5px;
 }
 
 
@@ -229,6 +231,11 @@ nav{
 
     #container{
         margin: 50px auto;
+    }
+
+    #main-section{
+        border: solid 1px;
+        padding: 14% 12%;
     }
 
     #skills-section{
