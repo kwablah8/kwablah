@@ -181,7 +181,7 @@ nav{
 
 @media only screen and (max-width: 600px){
     html{
-        font-size: 9px;
+        font-size: 10px;
     }
 
     #ms-content{
@@ -193,7 +193,7 @@ nav{
     }
 
     #skills-section{
-        margin-top: 12%;
+        margin-top: 10%;
     }
 
     .carousel img{
