@@ -1,5 +1,5 @@
 :root{
-    --main-font: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --main-font: 'Franklin Gothic Medium';
     --navbar: rgba(255, 255, 255, 95%);
     --color1: rgb(0, 0, 0);
     --color2: rgb(255, 255, 255);
@@ -14,6 +14,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--main-font);
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 a{
@@ -24,30 +29,20 @@ ul{
     list-style: none;
 }
 
-
-html{
-    font-size: 10px;
-    scroll-behavior: smooth;
-}
-
 body{
-    font-family: var(--main-font);
     background-color: var(--color2);
     color: var(--color1);
 }
 
 #app{
-    position: absolute;
     width: 100%;
 }
-
 
 nav{
     position: fixed;
     width: 100%;
     height: 50px;
     background-color: var(--navbar);
-    font-size: 1.2rem;
     color: var(--color6);
     display: flex;
     align-items: center;
@@ -56,13 +51,11 @@ nav{
 }
 
 #nav-links{
-    border: soli 1px;
     display: flex;
     flex-direction: row;
 }
 
 .nav-item{
-    border: soli 1px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,61 +67,35 @@ nav{
     color: var(--color6);
 }
 
-
 #main-section{
     border: solid 1px;
-    padding: 9% 12%;
+    width: 100%;
     min-height: 100vh;
     max-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#main-header{
-    font-size: 2rem;
-    margin: 1%;
+#ms-content{
+    border: solid 1px;
+    margin: 15%;
     padding: 1%;
-    border: soli 1px;
 }
-
-.nme{
-    color: var(--color1);
-}
-
 
 #short-about-text{
-    font-family: var(--main-font);
-    font-size: 1.6rem;
-    margin: 1%;
-    margin-top: 20px;
-    padding: 1%;
-    border: soli 1px;
+    font-size: 1.2rem;
     color: var(--color3);
+    margin-top: 2%;
 }
 
 #skills-section{
-    border: soli 1px;
-    padding: 1%;
-    margin: 1%;
-    margin-top: 30px;
+    font-size: 0.7rem;
+    margin-top: 3%;
 }
-
-#skills-header{
-    font-size: 1.6rem;
-    color: var(--color4);
-    width: 16rem;
-    margin: 5px;
-    border: soli 1px;
-}
-
-
-#skills-content{
-    margin: 5px;
-    padding: 0.5%;
-    border: soli 1px;
-}
-
 
 .skls-lst{
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     display: inline-block;
     border: soli 1px;
     padding: 0.5%;
@@ -138,125 +105,89 @@ nav{
 }
 
 
-
 #projects-section{
+    background: var(--color7);
+}
+
+#ps-content{
     border: solid 1px;
-    height: 100%;
-    width: 100%;
-    padding-bottom: 4%;
     display: flex;
-    flex-direction: column;
+    padding: 0 35px;
     align-items: center;
     justify-content: center;
-    background-color: var(--color7);
+    min-height: 100vh;
 }
 
-#projects-header{
-    font-size: 3rem;
-    width: 16rem;
-    margin: 1%;
-    padding: 1%;
-    border: soli 1px;
-}
-
-
-#project-content{
+.wrapper{
+    max-width: 1200px;
     position: relative;
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    border: soli 1px;
+}
+
+.wrapper i{
+    top: 50%;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    position: absolute;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 46px;
+    background: var(--color2);
+    transform: translateY(-50%);
+}
+
+.wrapper i:first-child{
+    left: -23px;
+    display: none;
+}
+
+.wrapper i:last-child{
+    right: -23px;
+}
+
+.wrapper .carousel{
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+
+.carousel.dragging{
+    cursor: grab;
+    scroll-behavior: auto;
+}
+
+.carousel.dragging img{
+    pointer-events: none;
+}
+
+.carousel img{
+    height: 340px;
+    object-fit: cover;
+    margin-left: 14px;
+    width: calc(100% / 3);
+    border-radius: 10px;
+}
+
+.carousel img:first-child{
+    margin-left: 0px;
 }
 
 
-.grd-conco{
-    height: 300px;
-    width: 450px;
-    margin-top: 5px;
-    border: solid 1px;
+
+@media screen and (max-width: 900px){
+    .carousel img{
+        width: calc(100% / 2);
+    }
 }
 
-.project-link{
-    list-style: none;
-    color:rgb(0, 0, 0);
-}
-
-#all-projects{
-    align-self: flex-end;
-    font-size: 1.5rem;
-    padding: 5px;
-}
-
-
-
-
-/* RESPONSIVE */
-
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 600px){
     html{
-        font-size: 6px;
+        font-size: 9px;
     }
 
-    nav{
-        height: 50px;
-        font-size: 1.5rem;
-    }
-
-    #container{
-        margin: 50px auto;
-    }
-
-
-    #main-section{
-        height: ;
-        border: solid 1px;
-        padding: 14% 12%;
-    }
-
-    #skills-section{
-        margin-top: 20px;
-    }
-
-    .skls-lst{
-        padding: 2%;
-        font-size: 1.2rem;
-    }
-
-    #projects-section{
-        border: solid 1px;
-        height: 100%;
+    .carousel img{
         width: 100%;
-        padding-bottom: 4%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background-color: var(--color7);
     }
-    
-    #projects-header{
-        font-size: 3rem;
-        width: 16rem;
-        margin: 1%;
-        padding: 1%;
-        border: soli 1px;
-    }
-
-
-    #project-content{
-    position: relative;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    border: soli 1px;
-    }
-
-    .grd-conco{
-        height: 200px;
-        width: 250px;
-        margin-top: 5px;
-    }
+}
