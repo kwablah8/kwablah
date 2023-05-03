@@ -45,9 +45,9 @@ body{
 nav{
     position: fixed;
     width: 100%;
-    height: 60px;
+    height: 50px;
     background-color: var(--navbar);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: var(--color6);
     display: flex;
     align-items: center;
@@ -75,15 +75,15 @@ nav{
 }
 
 
-
 #main-section{
-    border: soli 1px;
+    border: solid 1px;
     padding: 9% 12%;
-    height: 100%;
+    min-height: 100vh;
+    max-height: 100vh;
 }
 
 #main-header{
-    font-size: 3.5rem;
+    font-size: 2rem;
     margin: 1%;
     padding: 1%;
     border: soli 1px;
@@ -96,7 +96,7 @@ nav{
 
 #short-about-text{
     font-family: var(--main-font);
-    font-size: 2.2rem;
+    font-size: 1.6rem;
     margin: 1%;
     margin-top: 20px;
     padding: 1%;
@@ -107,13 +107,12 @@ nav{
 #skills-section{
     border: soli 1px;
     padding: 1%;
-    height: 100%;
     margin: 1%;
     margin-top: 30px;
 }
 
 #skills-header{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: var(--color4);
     width: 16rem;
     margin: 5px;
@@ -122,16 +121,14 @@ nav{
 
 
 #skills-content{
-    font-size: 1.5rem;
-    width: 100%;
     margin: 5px;
     padding: 0.5%;
     border: soli 1px;
-    height: 100%;
 }
 
 
 .skls-lst{
+    font-size: 1.2rem;
     display: inline-block;
     border: soli 1px;
     padding: 0.5%;
@@ -143,7 +140,7 @@ nav{
 
 
 #projects-section{
-    border: soli 1px;
+    border: solid 1px;
     height: 100%;
     width: 100%;
     padding-bottom: 4%;
@@ -177,12 +174,13 @@ nav{
 .grd-conco{
     height: 300px;
     width: 450px;
+    margin-top: 5px;
     border: solid 1px;
 }
 
 .project-link{
     list-style: none;
-    color:rgb(0, 0, 0)
+    color:rgb(0, 0, 0);
 }
 
 #all-projects{
@@ -192,58 +190,28 @@ nav{
 }
 
 
-#about-section{
-    border: soli 1px;
-    padding: 2%;
-    height: 100%;
-    background-color: var(--color1);
-}
-
-#about-header{
-    font-size: 3rem;
-    width: 100%;
-    padding: 1%;
-    border: solid 1px white;
-    color: var(--color2);
-}
-
-#about-content{
-    width: 100%;
-    border: solid 1px white;
-    margin-top: 10px;
-    height: 100%;
-}
-
-#footer{
-    margin: 0 auto;
-    text-align: center;
-    padding: 20px;
-    color: var(--color2);
-    background-color: var(--color1);
-}
-
-
-
 
 
 /* RESPONSIVE */
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 500px){
     html{
         font-size: 6px;
     }
 
     nav{
         height: 50px;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     #container{
         margin: 50px auto;
     }
 
+
     #main-section{
-        border: soli 1px;
+        height: ;
+        border: solid 1px;
         padding: 14% 12%;
     }
 
@@ -253,13 +221,32 @@ nav{
 
     .skls-lst{
         padding: 2%;
-        font-size: 1.8rem;
+        font-size: 1.2rem;
+    }
+
+    #projects-section{
+        border: solid 1px;
+        height: 100%;
+        width: 100%;
+        padding-bottom: 4%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--color7);
+    }
+    
+    #projects-header{
+        font-size: 3rem;
+        width: 16rem;
+        margin: 1%;
+        padding: 1%;
+        border: soli 1px;
     }
 
 
     #project-content{
     position: relative;
-    margin-top: 6%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -273,5 +260,3 @@ nav{
         width: 250px;
         margin-top: 5px;
     }
-}
-
