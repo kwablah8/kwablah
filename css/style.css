@@ -78,7 +78,6 @@ nav{
 }
 
 #ms-content{
-    border: solid 1px;
     margin: 15%;
     padding: 1%;
 }
@@ -188,7 +187,7 @@ nav{
     }
 
     #ms-content{
-        margin-top: 5%;
+        margin-top: 0;
     }
 
     .carousel img{
