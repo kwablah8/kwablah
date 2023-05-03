@@ -187,8 +187,8 @@ nav{
         font-size: 9px;
     }
 
-    #main-section{
-        margin: 0 15px;
+    #ms-content{
+        margin: 0 15%;
     }
 
     .carousel img{
