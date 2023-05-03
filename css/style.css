@@ -188,6 +188,14 @@ nav{
         margin-top: 0;
     }
 
+    #short-about-text{
+        margin-top: 8%;
+    }
+
+    #skills-section{
+        margin-top: 12%;
+    }
+
     .carousel img{
         width: 100%;
     }
