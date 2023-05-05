@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -50,16 +51,79 @@
                     <!--<h1 id="projects-header">PROJECTS</h1>-->
 
                     <div id="ps-content">
-                        <div class="wrapper">
-                            <i id="left" class="fa-solid fa-angle-left"></i>
-                            <div class="carousel">
-                                <img src="images/img1.png" alt="image">
-                                <img src="images/img2.png" alt="image">
-                                <img src="images/ideaboard2.png" alt="image">
-                                <img src="images/img1.png" alt="image">
+                        <div class="container swiper">
+                            <div class="slide-container">
+                                <div class="card-wrapper swiper-wrapper">
+                                    <div class="card swiper-slide">
+                                        <div class="image-box">
+                                            <img src="images/showImg/fullDev.jpg" alt="" />
+                                        </div>
+                                        <div class="profile-details">
+                                            <img src="images/profile/profile1.jpg" alt="" />
+                                            <div class="name-job">
+                                                <h3 class="name">David Cardlos</h3>
+                                                <h4 class="job">Full Stack Developer</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card swiper-slide">
+                                        <div class="image-box">
+                                            <img src="images/showImg/photographer.jpg" alt="" />
+                                        </div>
+                                        <div class="profile-details">
+                                            <img src="images/profile/profile2.jpg" alt="" />
+                                            <div class="name-job">
+                                                <h3 class="name">Siliana Ramis</h3>
+                                                <h4 class="job">Photographer</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card swiper-slide">
+                                        <div class="image-box">
+                                            <img src="images/showImg/dataAna.jpg" alt="" />
+                                        </div>
+                                        <div class="profile-details">
+                                            <img src="images/profile/profile3.jpg" alt="" />
+                                            <div class="name-job">
+                                                <h3 class="name">Richard Bond</h3>
+                                                <h4 class="job">Data Analyst</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card swiper-slide">
+                                        <div class="image-box">
+                                            <img src="images/showImg/appDev.jpg" alt="" />
+                                        </div>
+                                        <div class="profile-details">
+                                            <img src="images/profile/profile4.jpg" alt="" />
+                                            <div class="name-job">
+                                                <h3 class="name">Priase</h3>
+                                                <h4 class="job">App Developer</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card swiper-slide">
+                                        <div class="image-box">
+                                            <img src="images/showImg/blogger.jpg" alt="" />
+                                        </div>
+                                        <div class="profile-details">
+                                            <img src="images/profile/profile5.jpg" alt="" />
+                                            <div class="name-job">
+                                                <h3 class="name">James Laze</h3>
+                                                <h4 class="job">Blogger</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <i id="right" class="fa-solid fa-angle-right"></i>
+                            <div class="swiper-button-next swiper-navBtn"></div>
+                            <div class="swiper-button-prev swiper-navBtn"></div>
+                            <div class="swiper-pagination"></div>
                         </div>
+
+                        <script src="js/swiper-bundle.min.js"></script>
+                        <script src="js/script.js"></script>
+
                     </div>
 
                 </div>
@@ -71,7 +135,11 @@
 
 <footer>
     <div id="footer">
-        <p>&copy; 2023 KWABLAH</p>
+        <div class="f-boxes"></div>
+        <div class="f-boxes"></div>
+        <div class="f-boxes"></div>
+        <div class="f-boxes"></div>
+        <p id="copyright">&copy; 2023 KWABLAH</p>
     </div>
 </footer>
 
