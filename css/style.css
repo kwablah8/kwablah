@@ -1,6 +1,6 @@
 :root {
   --main-font: "Franklin Gothic Medium";
-  --navbar: rgba(255, 255, 255, 95%);
+  --navbar: rgba(255, 255, 255, 0.705);
   --color1: rgb(0, 0, 0);
   --color2: rgb(255, 255, 255);
   --color3: rgb(100, 100, 100);
@@ -108,16 +108,22 @@ nav {
 
 #ps-content {
   display: flex;
-  padding: 0 35px;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
 }
 
+
+
+
+
+
+
 .container {
   max-width: 1120px;
   width: 100%;
   padding: 40px 0;
+  border: solid 1px;
 }
 .slide-container {
   margin: 0 30px;
@@ -128,7 +134,7 @@ nav {
   border-radius: 8px;
 }
 .card .image-box {
-  height: 200px;
+  height: 300px;
 }
 .card .image-box img {
   width: 100%;
@@ -178,11 +184,6 @@ nav {
   }
 }
 
-@media screen and (max-width: 900px) {
-  .carousel img {
-    width: calc(100% / 2);
-  }
-}
 
 @media only screen and (max-width: 600px) {
   html {
@@ -199,9 +200,5 @@ nav {
 
   #skills-section {
     margin-top: 10%;
-  }
-
-  .carousel img {
-    width: 100%;
   }
 }
