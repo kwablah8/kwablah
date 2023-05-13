@@ -8,7 +8,7 @@
     --color4: rgb(255, 69, 0);
     --color5: rgba(230, 230, 230);
     --color6: rgb(100, 100, 100);
-    --color7: rgb(219, 187, 6);
+    --color7: rgb(219, 180, 6);
 }
 
 
@@ -22,6 +22,7 @@
 html{
     font-size: 10px;
     scroll-behavior: smooth;
+    max-height: 100vh;
 }
 
 a{
@@ -79,7 +80,7 @@ nav{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 93vh;
     width: 100%;
 }
 
@@ -144,8 +145,28 @@ i{
     height: 100%;
 }
 
+#footer{
+    position: absolute;
+    width: 100%;
+    color: var(--color2);
+    background-color: var(--color1);
+  }
+  
+  #copyright{
+    font-size: 1.5rem;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+
 @media only screen and (max-width: 685px){
     html{
         font-size: 5px;
+    }
+
+    .social-icon{
+        font-size: 3.5rem;
     }
 }
