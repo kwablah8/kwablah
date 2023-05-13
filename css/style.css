@@ -364,12 +364,17 @@ nav {
     font-size: 10px;
   }
 
+  #main-section{
+    max-height: 90vh;
+    min-height: 90vh;
+  }
+
   #ms-content {
     margin-top: 0;
   }
 
   #short-about-text {
-    margin-top: 8%;
+    margin-top: 5%;
   }
 
   #skills-section {
