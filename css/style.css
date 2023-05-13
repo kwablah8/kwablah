@@ -74,8 +74,7 @@ textarea:invalid {
   outline-color: var(--invalid);
 }
 
-a.underline,
-button {
+a.underline{
   display: inline-block;
   padding-bottom: 0.625rem;
   font-size: 1rem;
