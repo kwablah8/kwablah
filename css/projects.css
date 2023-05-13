@@ -169,4 +169,8 @@ i{
     .social-icon{
         font-size: 3.5rem;
     }
+
+    #copyright{
+        margin: 5px;
+    }
 }
