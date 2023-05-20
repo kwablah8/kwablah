@@ -108,8 +108,18 @@ span{
   margin: 2%;
 }
 
+.link-container{
+  border: solid 1px;
+  margin: 2%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 .project-report-link{
   border: solid 1px;
+  margin-inline: 2%;
 }
 
 @media only screen and (max-width: 600px) {
