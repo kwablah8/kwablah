@@ -111,3 +111,18 @@ span{
 .project-report-link{
   border: solid 1px;
 }
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 10px;
+  }
+
+  #main-section{
+    max-height: 93vh;
+    min-height: 93vh;
+  }
+
+  #ms-content {
+    margin-top: 0;
+  }
+}
