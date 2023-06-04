@@ -35,6 +35,10 @@ ul {
   list-style: none;
 }
 
+i {
+  font-size: 1.5rem;
+}
+
 body {
   background-color: var(--color2);
   color: var(--color1);
@@ -73,14 +77,14 @@ nav {
   color: var(--color6);
 }
 
-#main-section{
+#main-section {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#ms-content{
+#ms-content {
   border: solid 1px;
   width: 60%;
   margin: 13%;
@@ -88,27 +92,27 @@ nav {
   flex-direction: column;
 }
 
-.project-title{
+.project-title {
   border: solid 1px;
   margin: 2%;
 }
 
-span{
+span {
   font-size: 1.3rem;
   font-weight: 100;
 }
 
-.project-image{
+.project-image {
   border: solid 1px;
   margin: 2%;
 }
 
-.project-description{
+.project-description {
   border: solid 1px;
   margin: 2%;
 }
 
-.link-container{
+.link-container {
   border: solid 1px;
   margin: 2%;
   display: flex;
@@ -117,7 +121,7 @@ span{
   justify-content: center;
 }
 
-.project-report-link{
+.project-report-link {
   border: solid 1px;
   margin-inline: 2%;
 }
@@ -127,7 +131,7 @@ span{
     font-size: 10px;
   }
 
-  #main-section{
+  #main-section {
     min-height: 93vh;
   }
 
