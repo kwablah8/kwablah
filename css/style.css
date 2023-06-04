@@ -33,6 +33,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 1px;
   font-family: var(--main-font);
 }
 
@@ -75,7 +76,7 @@ textarea:invalid {
   outline-color: var(--invalid);
 }
 
-a.underline{
+a.underline {
   display: inline-block;
   padding-bottom: 0.625rem;
   font-size: 1rem;
@@ -99,7 +100,7 @@ a:hover {
   color: var(--accent);
 }
 
-img{
+img {
   display: block;
 }
 
@@ -156,8 +157,12 @@ nav {
   padding: 1%;
 }
 
+#main-header {
+  font-size: 3.5rem;
+}
+
 #short-about-text {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: var(--color3);
   margin-top: 2%;
 }
@@ -177,7 +182,7 @@ nav {
   background-color: var(--color5);
 }
 
-.projects{
+.projects {
   background-color: var(--color5);
 }
 
@@ -238,7 +243,7 @@ nav {
   gap: 20px;
 }
 
-#footer{
+#footer {
   position: relative;
   width: 100%;
   color: var(--color8);
@@ -247,26 +252,26 @@ nav {
   flex-direction: column;
 }
 
-#email-container{
-  border: solid 1px;
+#email-container {
+  border: solid px;
   height: 100%;
   display: flex;
   flex-direction: row;
 }
 
-.email-box{
-  border: solid 1px;
+.email-box {
+  border: solid px;
   height: 170px;
 }
 
-#fb-container{
-  border: solid 1px;
+#fb-container {
+  border: solid px;
   height: 100%;
   display: flex;
   flex-direction: row;
 }
 
-.f-boxes{
+.f-boxes {
   border: solid 1px;
   font-size: 1.2rem;
   width: 100%;
@@ -276,7 +281,7 @@ nav {
   justify-content: center;
 }
 
-.social-link{
+.social-link {
   height: 100%;
   width: calc(100% / 4);
   display: flex;
@@ -284,25 +289,20 @@ nav {
   justify-content: center;
 }
 
-.social-icon{
-  height: 100%;
-  font-size: 2.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.social-icon {
   color: var(--color6);
 }
 
-.social-icon:hover{
+.social-icon:hover {
   color: var(--color4);
 }
 
-i{
+i {
   height: 100%;
+  font-size: 2rem;
 }
 
-#copyright{
-  border: solid 1px;
+#copyright {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -369,7 +369,7 @@ i{
   }
 
   .projects__picture::after {
-    content: '';
+    content: "";
     position: absolute;
     width: 100%;
     height: 100%;
@@ -423,7 +423,7 @@ i{
     font-size: 10px;
   }
 
-  #main-section{
+  #main-section {
     max-height: 93vh;
     min-height: 93vh;
   }
@@ -440,7 +440,7 @@ i{
     margin-top: 10%;
   }
 
-  .skls-lst{
+  .skls-lst {
     margin: 3px;
     border-radius: 3px;
   }
