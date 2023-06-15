@@ -184,6 +184,12 @@ nav {
   background-color: var(--color5);
 }
 
+.ad {
+  height: 20px;
+  width: 60px;
+  border: solid 1px;
+}
+
 .projects {
   background-color: var(--color5);
 }
