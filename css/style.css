@@ -445,8 +445,8 @@ i {
   }
 
   #main-section {
-    max-height: 93vh;
-    min-height: 93vh;
+    max-height: 100vh;
+    min-height: 100vh;
   }
 
   #ms-content {
