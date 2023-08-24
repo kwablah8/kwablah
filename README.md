@@ -1,1 +1,1 @@
-Repo for portfolio website which is still being built..
+Repo for personal portfolio website im building.
